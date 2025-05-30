@@ -1,0 +1,198 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\usepackage[scale=0.75, top=1.5cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+
+% Enhanced hyperlink styling
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=black,
+    pdftitle={Rishmi Dissanayaka - QA Engineer Resume},
+    pdfauthor={Rishmi Dissanayaka}
+}
+
+% Custom horizontal rules
+\newcommand{\sectionrule}{\noindent\makebox[\linewidth]{\color{color1}\rule{\textwidth}{1pt}}}
+\newcommand{\contactrule}{\noindent\makebox[\linewidth]{\color{color1}\rule{\textwidth}{0.5pt}}}
+
+% Personal data 
+\name{\Huge Rishmi}{\Large Dissanayaka}
+\title{\large QA Engineer Intern (Manual/Automation)}
+\phone[mobile]{\faPhone~076-1165552}
+\email{\faEnvelope~987rishudissanayaka@gmail.com}
+\social[linkedin]{\faLinkedin~linkedin.com/in/rishmi-dissanayaka}
+\social[github]{\faGithub~github.com/rishmi-dissanayaka}
+
+\begin{document}
+
+% PROFESSIONAL HEADER WITH PHOTO ===========================
+\noindent
+\begin{minipage}[t]{0.22\textwidth}  % Photo column
+    \raggedright
+    \vspace{0pt}
+    \includegraphics[width=3.3cm,height=4.3cm,keepaspectratio]{Profile Photo.jpg}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.75\textwidth}  % Details column
+    \raggedright
+    \vspace{0pt}
+    {\Huge\bfseries\color{color1} Rishmi Dissanayaka} \\
+    {\large\bfseries\color{color2} QA Engineer Intern (Manual/Automation)} \\[0.4cm]
+    
+    \begin{minipage}[t]{0.45\textwidth}  % Contact left
+        \raggedright
+        \vspace{0pt}
+        \faEnvelope~\href{mailto:987rishudissanayaka@gmail.com}{987rishudissanayaka@gmail.com} \\
+        \faPhone~076-1165552
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}  % Contact right
+        \raggedright
+        \vspace{0pt}
+        \faGithub~\href{https://github.com/rishmi-dissanayaka}{github.com/rishmi-dissanayaka} \\
+        \faLinkedin~\href{https://linkedin.com/in/rishmi-dissanayaka}{linkedin.com/in/rishmi-dissanayaka}
+    \end{minipage}
+\end{minipage}
+
+% Horizontal rule separator
+\vspace{0.3cm}
+\contactrule
+\vspace{0.4cm}
+
+
+% Personal Profile
+\section{\faUser\hspace{0.5em} Personal Profile}
+\vspace{-0.2cm} 
+Aspiring Quality Assurance Engineer with hands-on experience in manual testing, including test case design, execution, defect tracking, and regression testing in real-world projects. Skilled in ensuring product quality and validating complex systems, including AI and security features. Experience on test automation using Playwright, Selenium, and JUnit. Proficient in using GitHub for version control and JIRA for defect tracking. Passionate about contributing to quality-driven teams and committed to continuous learning and delivering
+high-quality software.
+
+
+% Education
+\section{\faGraduationCap\hspace{0.5em} Education}
+\vspace{-0.1cm} 
+\cventry{2022--Present}{BSc in Information Systems}{University of Colombo School of Computing}{}{}{}
+\cventry{2020}{G.C.E. Advanced Level (Physical Science)}{Kegalu Balika Vidyalaya}{}{}{}
+\cventry{2015}{G.C.E. Ordinary Level}{Kg/Swarna Jayanthi Central College}{}{}{}
+
+% Work Experience
+\section{\faBriefcase\hspace{0.5em} Work Experience}
+\vspace{-0.2cm} 
+\cventry{Nov 2024--May 2025}{QA Engineer (Intern)}{PSL Development (Pvt) Ltd - Pronto Software}{}{}{
+\begin{itemize}
+  \item Mastered software testing methodologies, applying both manual and automated QA techniques across web and API layers.
+  \item Design, execute, and maintain detailed and well-structured test cases based on business and technical requirements, ensuring maximum test coverage.
+  \item Developed a complete Java TestNG Maven automation framework from scratch, including: Page Object Model (POM), Data-driven testing using JSON and property files, Custom utility classes, retry mechanism, logging, and assertions, Selenium Manager integration for driver handling, Extent Reports for detailed test reporting, Parallel and cross-browser execution, Screenshot capture and test setup/teardown using TestNG annotations.
+  \item Achieved a modular, maintainable, and scalable framework aligned with industry best practices.
+  \item Practiced API testing using Postman, performing both manual and automation testing.
+  \item Used Jira for complete QA lifecycle management, including sprint planning, defect tracking, and task prioritization, resulting in a noticeable reduction in bug leakage.
+\end{itemize}
+}
+
+% Projects
+\section{\faCode\hspace{0.5em} Projects}
+\vspace{-0.2cm} 
+\cvitem{AIMS Project}{\textbf{Pronto-Asset and Inventory Management System
+}
+\begin{itemize}
+  \item \textbf{Description:} Web application for office asset and inventory management, featuring real-time tracking and role-based access for Manager, Coordinator, Employer, and Helper. Integrated expense tracking, item scanning, and data entry functionalities to streamline operations. Ensured system reliability through comprehensive manual and automated testing.
+  \item \textbf{} Executed end-to-end testing for Manager, Coordinator, Employee, and Helper roles
+  \item \textbf{} Validated expense tracking and data entry workflows through manual testing
+  \item \textbf{Tech Stack:} React Native,Java, 4GL
+  \item \textbf{Contribution:} Conducted manual and automated testing for both the web application and its APIs, ensuring functionality, reliability, and performance across all user roles.
+\end{itemize}}
+
+\vspace{0.5cm}
+
+\cvitem{ELECTRA-FIND}{\textbf{Web App to manage Assets and Inventory in the Office}
+\begin{itemize}
+  \item \textbf{Description:} Developed a comprehensive solution for EV users to find charging locations and a platform for households to provide electricity for electric vehicles.
+  \item \textbf{Tech Stack:} React Native, Flutter, Node.js, Express, Django
+  \item \textbf{Contribution:} Designed provider app with real-time monitoring, payment processing, and analytics
+\end{itemize}}
+\vspace{0.5cm}
+
+\cvitem{IQUBE}{\textbf{Online Tutoring Platform}
+\begin{itemize}
+  \item \textbf{Description:} Web platform connecting students with teachers for personalized tutoring.
+  \item \textbf{Tech Stack:} HTML, CSS, JavaScript, PHP, MySQL
+  \item \textbf{Contribution:} Developed admin-side functionalities including user management and scheduling
+\end{itemize}}
+
+% Technical Skills
+\section{\faCogs\hspace{0.5em} Technical Skills}
+\vspace{-0.3cm} 
+\begin{itemize}
+\item \textbf{Languages:} Java, Python, JavaScript, C,C\#, PHP
+\item \textbf{Testing Tools:} Selenium, Playwright,JUnit, TestNG, Postman
+\item \textbf{Bug Tracking:} Jira
+\item \textbf{Automation Frameworks:} TestNG
+\item \textbf{Databases:} MySQL, PostgreSQL, MongoDB
+\item \textbf{Web Technologies:} HTML, CSS, Bootstrap, Tailwind CSS, jQuery, React.js, Node.js, Express.js
+\item \textbf{Version Control:} Git, GitHub, GitLab
+\end{itemize}
+
+% Certifications
+\section{\faCertificate\hspace{0.5em} Certifications}
+\vspace{-0.2cm} 
+\begin{itemize}
+\item \href{https://www.udemy.com/certificate/UC-60dc857e-61b1-4dca-ba37-3bc24f8eb7ac/}{Selenium web driver with JAVA- Basics to advanced + Frameworks (Udemy)}
+\item \href{https://www.udemy.com/certificate/UC-93d2b6fe-dd8d-46ae-b404-751f0fca62eb/}{Specialize in QA manual Testing (Udemy)}
+\item \href{https://badgr.com/public/assertions/3efI234zQfevr3uUrSY5gA?identity__email=987rishudissanayaka%40gmail.com}{Postman API Fundamental Student Expert}  
+\item \href{https://www.linkedin.com/learning/certificates/d4e3fb769c9fb0fbefd918323e10edafae75ca948e60bb1c4b6533c47fe55186?trk=share_certificate}{LambdaTest Software Testing Professional Certificate}
+\item \href{https://www.linkedin.com/learning/certificates/1a7c01d3b9c2403b04223c62afd1cd4f3ce9d0322e88014a39690a5b03472494?trk=share_certificate}{Selenium Essential Training(LinkedIn Learning)} 
+\item \href{https://www.linkedin.com/learning/certificates/2494412330d63e723e837fbfe84760373d38499cc552616e7a893f5095ec2ffa?trk=share_certificate}{Java Object-Oriented Programming (LinkedIn Learning) }
+\item \href{https://www.linkedin.com/learning/certificates/008385d08c2b2fb6105a490ea70fe49a5c7bcf1c3386af1c3052bc98514dfcbd?trk=share_certificate}{Programming Foundations -Software Testing QA (LinkedIn Learning)}
+\end{itemize}
+
+% Strengths
+\section{\faStar\hspace{0.5em} Strengths}
+\vspace{-0.3cm} 
+\begin{itemize}
+\item Proven ability to design and implement automation frameworks
+\item Strong understanding of SDLC and STLC processes
+\item Expertise in testing methodologies
+\item Excellent problem-solving skills with attention to detail
+\item Effective cross-functional collaboration experience
+\item Ability to work effectively in a distributed team environment
+\end{itemize}
+
+% Extra Curricular Activities
+\section{\faStar\hspace{0.5em} Extra Curricular Activities}
+\vspace{-0.3cm} 
+\begin{itemize}
+\item Organizing Committee member
+       ( Hackaholics -hackathon by IEEE WIE -UCSC)
+\item Middle Board Director - BEACON
+       Public Speaking Department UOC
+\item Board member -Professional Development  avenue
+       (Rotaract Club -UCSC)
+\item Compere 
+      (University Of Colombo School of Computing)
+\item Prefect 
+      (kg/Swarna Jayanthi Central College)
+\item President - English Literary Association
+      (kg/Swarna Jayanthi Central College)
+
+\end{itemize}
+
+% References
+\section{\faAddressCard\hspace{0.5em} References}
+\vspace{-0.1cm} 
+\begin{minipage}{\textwidth}
+    \begin{tabular}{@{} l l @{}}
+        \textbf{Mr. Ishan Hettiarachchi} & \\
+        Manager, Sri Lankan Operations & \\
+        Core Research \& Development & \\
+        PSL Development (Pvt) Ltd - Pronto Software & \\
+        \faPhone~+94 74 285 1325 & \\
+        \faEnvelope~\href{mailto:ishan.hettiarachchi@pronto.net}{ishan.hettiarachchi@pronto.net} & \\
+    \end{tabular}
+\end{minipage}
+
+\end{document}
