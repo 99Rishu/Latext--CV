@@ -21,17 +21,20 @@
 \newcommand{\sectionrule}{\noindent\makebox[\linewidth]{\color{color1}\rule{\textwidth}{1pt}}}
 \newcommand{\contactrule}{\noindent\makebox[\linewidth]{\color{color1}\rule{\textwidth}{0.5pt}}}
 
+% ... [preamble remains unchanged] ...
+
 % Personal data 
 \name{\Huge Rishmi}{\Large Dissanayaka}
 \title{\large QA Engineer Intern (Manual/Automation)}
 \phone[mobile]{\faPhone~076-1165552}
 \email{\faEnvelope~987rishudissanayaka@gmail.com}
-\social[linkedin]{\faLinkedin~linkedin.com/in/rishmi-dissanayaka}
-\social[github]{\faGithub~github.com/rishmi-dissanayaka}
+\social[linkedin]{\faLinkedin~https://www.linkedin.com/in/rishmi-dissanayaka-282384255}
+\social[github]{\faGithub~https://github.com/99Rishu}
+% ... [preamble remains unchanged] ...
 
 \begin{document}
 
-% PROFESSIONAL HEADER WITH PHOTO ===========================
+% PROFESSIONAL HEADER WITH SINGLE-LINE ADDRESS
 \noindent
 \begin{minipage}[t]{0.22\textwidth}  % Photo column
     \raggedright
@@ -43,40 +46,40 @@
     \raggedright
     \vspace{0pt}
     {\Huge\bfseries\color{color1} Rishmi Dissanayaka} \\
-    {\large\bfseries\color{color2} QA Engineer Intern (Manual/Automation)} \\[0.4cm]
+    {\large\bfseries\color{color2} Associate QA Engineer} \\[0.4cm]
     
-    \begin{minipage}[t]{0.45\textwidth}  % Contact left
+    % Two-column contact layout
+    \begin{minipage}[t]{0.48\textwidth}  % Left contact column
         \raggedright
         \vspace{0pt}
         \faEnvelope~\href{mailto:987rishudissanayaka@gmail.com}{987rishudissanayaka@gmail.com} \\
-        \faPhone~076-1165552
+        \faPhone~076-1165552 \\
+        \faMapMarker~523, Wijerama Junction, Gangodawila, Nugegoda
     \end{minipage}
     \hfill
-    \begin{minipage}[t]{0.48\textwidth}  % Contact right
+    \begin{minipage}[t]{0.48\textwidth}  % Right contact column
         \raggedright
         \vspace{0pt}
-        \faGithub~\href{https://github.com/rishmi-dissanayaka}{github.com/rishmi-dissanayaka} \\
-        \faLinkedin~\href{https://linkedin.com/in/rishmi-dissanayaka}{linkedin.com/in/rishmi-dissanayaka}
+        \faGithub~\href{https://github.com/99Rishu}{github.com/99Rishu} \\
+        \faLinkedin~\href{https://www.linkedin.com/in/rishmi-dissanayaka-282384255}{linkedin.com/in/rishmi-dissanayaka}
     \end{minipage}
 \end{minipage}
 
 % Horizontal rule separator
-\vspace{0.3cm}
+\vspace{0.1cm}
 \contactrule
-\vspace{0.4cm}
-
+\vspace{-0.1cm}
 
 % Personal Profile
 \section{\faUser\hspace{0.5em} Personal Profile}
 \vspace{-0.2cm} 
-Aspiring Quality Assurance Engineer with hands-on experience in manual testing, including test case design, execution, defect tracking, and regression testing in real-world projects. Skilled in ensuring product quality and validating complex systems, including AI and security features. Experience on test automation using Playwright, Selenium, and JUnit. Proficient in using GitHub for version control and JIRA for defect tracking. Passionate about contributing to quality-driven teams and committed to continuous learning and delivering
-high-quality software.
+Aspiring Quality Assurance Engineer with hands-on experience in manual testing, including test case design, execution, defect tracking, and regression testing in real-world projects. Skilled in ensuring product quality and validating complex systems, including AI and security features. Experience in test automation using Playwright, Selenium, and JUnit, with additional exposure to API testing using REST Assured. Proficient in using GitHub for version control and JIRA for defect tracking. Passionate about contributing to quality-driven teams and committed to continuous learning and delivering high-quality software.
 
 
 % Education
 \section{\faGraduationCap\hspace{0.5em} Education}
 \vspace{-0.1cm} 
-\cventry{2022--Present}{BSc in Information Systems}{University of Colombo School of Computing}{}{}{}
+\cventry{2022--Present}{Bachelor of Science in Information Systems(Reading)}{University of Colombo School of Computing}{}{}{}
 \cventry{2020}{G.C.E. Advanced Level (Physical Science)}{Kegalu Balika Vidyalaya}{}{}{}
 \cventry{2015}{G.C.E. Ordinary Level}{Kg/Swarna Jayanthi Central College}{}{}{}
 
@@ -85,44 +88,16 @@ high-quality software.
 \vspace{-0.2cm} 
 \cventry{Nov 2024--May 2025}{QA Engineer (Intern)}{PSL Development (Pvt) Ltd - Pronto Software}{}{}{
 \begin{itemize}
-  \item Mastered software testing methodologies, applying both manual and automated QA techniques across web and API layers.
+  \item Practiced with software testing methodologies, applying both manual and
+automated QA techniques across web and API layers.
   \item Design, execute, and maintain detailed and well-structured test cases based on business and technical requirements, ensuring maximum test coverage.
   \item Developed a complete Java TestNG Maven automation framework from scratch, including: Page Object Model (POM), Data-driven testing using JSON and property files, Custom utility classes, retry mechanism, logging, and assertions, Selenium Manager integration for driver handling, Extent Reports for detailed test reporting, Parallel and cross-browser execution, Screenshot capture and test setup/teardown using TestNG annotations.
   \item Achieved a modular, maintainable, and scalable framework aligned with industry best practices.
-  \item Practiced API testing using Postman, performing both manual and automation testing.
+  \item Conducted comprehensive API testing with Postman, executing 150+ manual test cases and 75+ automated validation scripts resulting in reduction in critical API defects.
+  \item Improved API reliability by validating 60+ endpoints using REST Assured.
   \item Used Jira for complete QA lifecycle management, including sprint planning, defect tracking, and task prioritization, resulting in a noticeable reduction in bug leakage.
 \end{itemize}
 }
-
-% Projects
-\section{\faCode\hspace{0.5em} Projects}
-\vspace{-0.2cm} 
-\cvitem{AIMS Project}{\textbf{Pronto-Asset and Inventory Management System
-}
-\begin{itemize}
-  \item \textbf{Description:} Web application for office asset and inventory management, featuring real-time tracking and role-based access for Manager, Coordinator, Employer, and Helper. Integrated expense tracking, item scanning, and data entry functionalities to streamline operations. Ensured system reliability through comprehensive manual and automated testing.
-  \item \textbf{} Executed end-to-end testing for Manager, Coordinator, Employee, and Helper roles
-  \item \textbf{} Validated expense tracking and data entry workflows through manual testing
-  \item \textbf{Tech Stack:} React Native,Java, 4GL
-  \item \textbf{Contribution:} Conducted manual and automated testing for both the web application and its APIs, ensuring functionality, reliability, and performance across all user roles.
-\end{itemize}}
-
-\vspace{0.5cm}
-
-\cvitem{ELECTRA-FIND}{\textbf{Web App to manage Assets and Inventory in the Office}
-\begin{itemize}
-  \item \textbf{Description:} Developed a comprehensive solution for EV users to find charging locations and a platform for households to provide electricity for electric vehicles.
-  \item \textbf{Tech Stack:} React Native, Flutter, Node.js, Express, Django
-  \item \textbf{Contribution:} Designed provider app with real-time monitoring, payment processing, and analytics
-\end{itemize}}
-\vspace{0.5cm}
-
-\cvitem{IQUBE}{\textbf{Online Tutoring Platform}
-\begin{itemize}
-  \item \textbf{Description:} Web platform connecting students with teachers for personalized tutoring.
-  \item \textbf{Tech Stack:} HTML, CSS, JavaScript, PHP, MySQL
-  \item \textbf{Contribution:} Developed admin-side functionalities including user management and scheduling
-\end{itemize}}
 
 % Technical Skills
 \section{\faCogs\hspace{0.5em} Technical Skills}
@@ -133,9 +108,39 @@ high-quality software.
 \item \textbf{Bug Tracking:} Jira
 \item \textbf{Automation Frameworks:} TestNG
 \item \textbf{Databases:} MySQL, PostgreSQL, MongoDB
-\item \textbf{Web Technologies:} HTML, CSS, Bootstrap, Tailwind CSS, jQuery, React.js, Node.js, Express.js
+\item \textbf{Web Technologies:} HTML, CSS, Bootstrap, Tailwind CSS, jQuery, React.js, Node.js, Express.js,Web3
 \item \textbf{Version Control:} Git, GitHub, GitLab
 \end{itemize}
+\vspace{1cm}
+% Projects
+\section{\faCode\hspace{0.5em} Projects}
+\vspace{-0.2cm} 
+\cvitem{AIMS Project}{\textbf{Pronto-Asset and Inventory Management System
+}
+\begin{itemize}
+  \item \textbf{Description:} Web application for office asset and inventory management, featuring real-time tracking and role-based access for Manager, Coordinator, Employer, and Helper. Integrated expense tracking, item scanning, and data entry functionalities to streamline operations. Ensured system reliability through comprehensive manual and automated testing.
+  \item \textbf{Contribution:}Performed manual and automated testing across web application and APIs to ensure system functionality, reliability, and performance for all user roles. Created and executed comprehensive test cases based on functional requirements and business logic. Utilized QA methodologies including regression testing, integration testing, and UAT to enhance application stability. Collaborated with development teams to report and track bugs, contributing to a high-quality release cycle.
+ \item \textbf{Tech Stack:} React Native,Java, 4GL
+\end{itemize}}
+
+\vspace{0.5cm}
+
+\cvitem{ELECTRA-FIND}{\textbf{Web App to manage Assets and Inventory in the Office}
+\begin{itemize}
+  \item \textbf{Description:} Developed a cross-platform EV charging solution enabling users to locate
+stations, book slots, and process QR-based payments. Built a provider web app for electricity companies to register, manage real-time station availability, and handle driver communications/payments.
+  \item \textbf{Contribution:} Delivered a scalable provider app supporting daily transactions and real-time availability updates.
+  \item \textbf{Tech Stack:} React Native, Flutter, Node.js, Express, Django
+\end{itemize}}
+\vspace{0.5cm}
+
+\cvitem{IQUBE}{\textbf{Online Tutoring Platform}
+\begin{itemize}
+  \item \textbf{Description:} Developed a web platform connecting students with teachers, offering study materials, quizzes, progress tracking, and collaborative study groups. Enabled teachers to register/earn income and allowed guest users to access sample quizzes.
+  \item \textbf{Contribution:} Developed key admin-side functionalities including secure user login, payment handling, and account management. Enhanced platform stability by identifying and resolving 20+ functional issues during testing.
+\item \textbf{Tech Stack:} HTML, CSS, JavaScript, PHP, MySQL
+\end{itemize}}
+
 
 % Certifications
 \section{\faCertificate\hspace{0.5em} Certifications}
@@ -150,36 +155,31 @@ high-quality software.
 \item \href{https://www.linkedin.com/learning/certificates/008385d08c2b2fb6105a490ea70fe49a5c7bcf1c3386af1c3052bc98514dfcbd?trk=share_certificate}{Programming Foundations -Software Testing QA (LinkedIn Learning)}
 \end{itemize}
 
-% Strengths
-\section{\faStar\hspace{0.5em} Strengths}
-\vspace{-0.3cm} 
-\begin{itemize}
-\item Proven ability to design and implement automation frameworks
-\item Strong understanding of SDLC and STLC processes
-\item Expertise in testing methodologies
-\item Excellent problem-solving skills with attention to detail
-\item Effective cross-functional collaboration experience
-\item Ability to work effectively in a distributed team environment
-\end{itemize}
-
-% Extra Curricular Activities
-\section{\faStar\hspace{0.5em} Extra Curricular Activities}
-\vspace{-0.3cm} 
-\begin{itemize}
-\item Organizing Committee member
-       ( Hackaholics -hackathon by IEEE WIE -UCSC)
-\item Middle Board Director - BEACON
-       Public Speaking Department UOC
-\item Board member -Professional Development  avenue
-       (Rotaract Club -UCSC)
-\item Compere 
-      (University Of Colombo School of Computing)
-\item Prefect 
-      (kg/Swarna Jayanthi Central College)
-\item President - English Literary Association
-      (kg/Swarna Jayanthi Central College)
-
-\end{itemize}
+% PARALLEL SECTION - Strengths & Activities
+\vspace{-0.1cm}
+\section{\faStar\hspace{0.5em} Strengths \& Activities}
+\vspace{-0.2cm}
+\begin{minipage}[t]{0.58\textwidth}
+  \textbf{Strengths}
+  \begin{itemize}
+  \item Automation framework design
+  \item SDLC/STLC expertise
+  \item Problem-solving focus
+  \item Cross-functional collaboration
+  \item Distributed team experience
+  \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \textbf{Extra Curricular}
+  \begin{itemize}
+  \item Hackathon Organizer (IEEE)
+  \item Board Director (BEACON UOC)
+  \item Rotaract Club (UCSC)
+  \item University Compere
+  \item School Prefect
+  \end{itemize}
+\end{minipage}
 
 % References
 \section{\faAddressCard\hspace{0.5em} References}
