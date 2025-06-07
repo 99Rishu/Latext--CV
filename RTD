@@ -1,7 +1,7 @@
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
-\usepackage[scale=0.75, top=1.5cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
+\usepackage[scale=0.75, top=1cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
 \usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{fontawesome5}
@@ -155,16 +155,18 @@ stations, book slots, and process QR-based payments. Built a provider web app fo
 \item \href{https://www.linkedin.com/learning/certificates/008385d08c2b2fb6105a490ea70fe49a5c7bcf1c3386af1c3052bc98514dfcbd?trk=share_certificate}{Programming Foundations -Software Testing QA (LinkedIn Learning)}
 \end{itemize}
 
-% PARALLEL SECTION - Strengths & Activities
+% PARALLEL SECTION - Strengths & Activities + References
 \vspace{-0.1cm}
-\section{\faStar\hspace{0.5em} Strengths \& Activities}
+\section{\faStar\hspace{0.5em} Strengths \& Activities}  
 \vspace{-0.2cm}
-\begin{minipage}[t]{0.58\textwidth}
+
+% First Row: Strengths + Ishan Reference
+\begin{minipage}[t]{0.48\textwidth}
   \textbf{Strengths}
-  \begin{itemize}
+  \begin{itemize} \setlength\itemsep{0.1em}
   \item Automation framework design
   \item SDLC/STLC expertise
-  \item Problem-solving focus
+  \item analytical and problem-solving skills
   \item Cross-functional collaboration
   \item Distributed team experience
   \end{itemize}
@@ -172,7 +174,7 @@ stations, book slots, and process QR-based payments. Built a provider web app fo
 \hfill
 \begin{minipage}[t]{0.48\textwidth}
   \textbf{Extra Curricular}
-  \begin{itemize}
+  \begin{itemize} \setlength\itemsep{0.1em}
   \item Hackathon Organizer (IEEE)
   \item Board Director (BEACON UOC)
   \item Rotaract Club (UCSC)
@@ -181,18 +183,27 @@ stations, book slots, and process QR-based payments. Built a provider web app fo
   \end{itemize}
 \end{minipage}
 
-% References
+% PARALLEL SECTION - Strengths & Activities + References
+\vspace{-0.1cm}
 \section{\faAddressCard\hspace{0.5em} References}
-\vspace{-0.1cm} 
-\begin{minipage}{\textwidth}
-    \begin{tabular}{@{} l l @{}}
-        \textbf{Mr. Ishan Hettiarachchi} & \\
-        Manager, Sri Lankan Operations & \\
-        Core Research \& Development & \\
-        PSL Development (Pvt) Ltd - Pronto Software & \\
-        \faPhone~+94 74 285 1325 & \\
-        \faEnvelope~\href{mailto:ishan.hettiarachchi@pronto.net}{ishan.hettiarachchi@pronto.net} & \\
-    \end{tabular}
+\begin{minipage}[t]{0.48\textwidth}
+  \begin{tabular}{@{} l @{}}
+      \textbf{Mr. Ishan Hettiarachchi} \\
+      Manager, Sri Lankan Operations \\
+      Core Research \& Development \\
+      PSL Development (Pvt) Ltd - Pronto Software \\
+      \faPhone~+94742851325 \\
+      \faEnvelope~\href{mailto:ishan.hettiarachchi@pronto.net}{ishan.hettiarachchi@pronto.net} \\
+  \end{tabular}
 \end{minipage}
-
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \begin{tabular}{@{} l @{}}
+      \textbf{Mrs. Kumudu Maithreerathna} \\
+      Lead QA Analyst \\
+      PSL Development (Pvt) Ltd - Pronto Software \\
+      \faPhone~+94774003723 \\
+      \faEnvelope~\href{mailto:kumudu.maithreerathna@pronto.net}{kumudu.maithreerathna@pronto.net} \\
+  \end{tabular}
+\end{minipage}
 \end{document}
